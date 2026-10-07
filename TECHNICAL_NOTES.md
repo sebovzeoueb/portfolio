@@ -1,6 +1,10 @@
-Bun supports importing/bundling text files
+Bun supports importing/bundling md files
 
 Bun has a builtin markdown renderer
+
+<https://bun.com/docs/runtime/file-types#md>
+
+Check if by any chance you can import a .md directly into an HTML file in Bun, although the documentation doesn't explicitly mention it.
 
 ## Possible paths
 
