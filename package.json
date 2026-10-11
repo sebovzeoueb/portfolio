@@ -8,5 +8,11 @@
   },
   "peerDependencies": {
     "typescript": "^7"
+  },
+  "dependencies": {
+    "hono": "^4.13.13"
+  },
+  "scripts": {
+    "hono_proto": "bun run --hot hono/index.tsx"
   }
 }
