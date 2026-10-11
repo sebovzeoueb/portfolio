@@ -3,21 +3,27 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="static/style.css">
 	<title>{{ title }}</title>
 </head>
 <body>
-	{{ content | safe }}
-
+	<section>
+		<article>
+			{{ content | safe }}
+		</article>
+	</section>
+	<section>
 	<h2>Projects</h2>
 	{% for item in collections.portfolio %}
 	<article>
 		<h3>
 			{{ item.data.title }}
 		</h3>
-		{% if item.data.link %}<a href="{{ item.data.link }}">{{ item.data.link }}</a>{% endif %}
+		{% if item.data.link %}<div class="project-link"><a href="{{ item.data.link }}" target="_blank">{{ item.data.link }}</a></div>{% endif %}
 		{% if item.data.image %}<img src="{{ item.data.image }}" alt="{{ item.data.title }}">{% endif %}
 		{{ item.content | safe }}
 	</article>
 	{% endfor %}
+	</section>
 </body>
 </html>

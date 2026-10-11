@@ -36,3 +36,9 @@ A build script which takes the HTML template + md files and spits out the finish
 - might be a bit more bloaty in terms of dev requirements
 
 I'm liking this option the most so far.
+
+## 11ty + Stylus
+
+I would like to use Stylus to manage CSS generation as I'm familiar with it and I like its simplicity.
+
+See https://github.com/ar363/eleventy-stylus-blog-theme for an example.

@@ -17,6 +17,7 @@
 - Lit web components, web components are native JavaScript and Lit is a very light layer on top of that.
 - Bun to compile the frontend and run a dev server to view the project locally. (no prod server needed as it runs on a static web host).
 - Possibly 11ty or Hono to do static site generation (may not need Lit in this scenario).
+- Stylus for CSS
 
 ## Contents
 

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+
+bg-colour = #1f0d14
+text-colour = white
+link-colour = #ffdfa8
+hover-text-colour = #e67455
+visited-colour = #e0b8c0
+
+body
+  background-color: bg-colour
+  color: text-colour
+  display: flex
+  flex-direction: column
+  align-items: center
+  font-family: "Signika Negative", sans-serif
+  font-size: 1.2rem
+
+section
+  max-width: 100rem
+  width: 100%
+
+img
+  display: block
+
+for i in (1..6)
+  h{i}
+    text-align: center
+
+a
+  text-decoration: none
+  font-weight: bold
+  &:link
+  &:active
+    color: link-colour
+  &:hover
+    color: hover-text-colour
+  &:visited
+    color: visited-colour
+
+.project-link
+  margin: 0.5rem
+  display: flex
+  justify-content: center

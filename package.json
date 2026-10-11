@@ -11,10 +11,12 @@
   },
   "dependencies": {
     "@11ty/eleventy": "^3.1.6",
-    "hono": "^4.13.13"
+    "hono": "^4.13.13",
+    "stylus": "^0.64.0"
   },
   "scripts": {
-    "hono_proto": "bun run --hot hono/index.tsx",
-    "11ty_proto": "bun run eleventy --config=./11ty/eleventy.config.js --input=./11ty/src --output=./11ty/_site --serve"
+    "watch:11ty": "bun run eleventy --config=./eleventy.config.js --input=./src --output=./_site --serve",
+    "watch:stylus": "bun run stylus --watch ./css --out ./src/static",
+    "dev": "bun run --parallel watch:stylus watch:11ty"
   }
 }

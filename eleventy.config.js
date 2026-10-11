@@ -14,7 +14,8 @@ const byOrderThenNewest = (a, b) => {
 
 export default function (eleventyConfig) {
 	eleventyConfig.addCollection("portfolio", (collectionApi) =>
-		collectionApi.getFilteredByGlob("./11ty/src/portfolio/*.md").sort(byOrderThenNewest),
+		collectionApi.getFilteredByGlob("./src/portfolio/*.md").sort(byOrderThenNewest),
 	);
-	eleventyConfig.addPassthroughCopy("11ty/src/img");
+	eleventyConfig.addPassthroughCopy("src/img");
+	eleventyConfig.addPassthroughCopy("src/static");
 }
