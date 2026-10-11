@@ -10,9 +10,11 @@
     "typescript": "^7"
   },
   "dependencies": {
+    "@11ty/eleventy": "^3.1.6",
     "hono": "^4.13.13"
   },
   "scripts": {
-    "hono_proto": "bun run --hot hono/index.tsx"
+    "hono_proto": "bun run --hot hono/index.tsx",
+    "11ty_proto": "bun run eleventy --input=./11ty/src --output=./11ty/_site --serve"
   }
 }

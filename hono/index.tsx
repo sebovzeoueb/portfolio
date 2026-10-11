@@ -14,7 +14,7 @@ const Layout: FC = (props) => {
 }
 
 const Markdown: FC<{ file: string }> = async ({ file }) => {
-  const md = await Bun.file(path.join(import.meta.dir, "..", "content", file)).text()
+  const md = await Bun.file(path.join(import.meta.dir, "content", file)).text()
   return <>{raw(Bun.markdown.html(md))}</>
 }
 
