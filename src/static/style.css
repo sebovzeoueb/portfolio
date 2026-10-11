@@ -1,54 +1,111 @@
-@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap");
 body {
   background-color: #1f0d14;
-  color: #fff;
+  color: #e3ddd3;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "Signika Negative", sans-serif;
+  font-family: "Signika", sans-serif;
   font-size: 1.2rem;
+  padding: 1rem;
 }
 section {
-  max-width: 100rem;
+  max-width: 80rem;
   width: 100%;
 }
 img {
   display: block;
+  width: 100%;
+  margin: 1rem;
+}
+p {
+  width: 80%;
+  margin: 1rem auto;
 }
 h1 {
   text-align: center;
+  margin: 1rem;
+  color: #fff;
 }
 h2 {
   text-align: center;
+  margin: 1rem;
+  color: #fff;
 }
 h3 {
   text-align: center;
+  margin: 1rem;
+  color: #fff;
 }
 h4 {
   text-align: center;
+  margin: 1rem;
+  color: #fff;
 }
 h5 {
   text-align: center;
+  margin: 1rem;
+  color: #fff;
 }
 h6 {
   text-align: center;
+  margin: 1rem;
+  color: #fff;
+}
+h6 {
+  font-size: 1.3rem;
+}
+h5 {
+  font-size: 1.5rem;
+}
+h4 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 4rem;
+}
+h1 {
+  font-size: 6rem;
 }
 a {
   text-decoration: none;
   font-weight: bold;
 }
 a:link,
-a:active {
+a:active,
+a:visited {
   color: #ffdfa8;
 }
 a:hover {
   color: #e67455;
 }
-a:visited {
-  color: #e0b8c0;
-}
 .project-link {
-  margin: 0.5rem;
+  margin: 1rem;
   display: flex;
   justify-content: center;
+}
+.socials {
+  display: flex;
+  justify-content: center;
+}
+.socials img {
+  width: 4rem;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
+blockquote {
+  font-style: italic;
+  background-color: #f5c19a;
+  color: #572d35;
+  width: 80%;
+  padding: 1rem;
+  margin: 1rem auto;
+  border-left: 0.5rem solid #a17070;
 }

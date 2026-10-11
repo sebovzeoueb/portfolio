@@ -1,10 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
 
 bg-colour = #1f0d14
-text-colour = white
+title-colour = white
+text-colour = #e3ddd3
 link-colour = #ffdfa8
 hover-text-colour = #e67455
-visited-colour = #e0b8c0
+main-margin = 1rem
+alt-bg = #f5c19a
+alt-colour = #572d35
+alt-border-colour = #a17070
+article-width = 80%
 
 body
   background-color: bg-colour
@@ -12,32 +17,74 @@ body
   display: flex
   flex-direction: column
   align-items: center
-  font-family: "Signika Negative", sans-serif
+  font-family: "Signika", sans-serif;
   font-size: 1.2rem
+  padding: main-margin
 
 section
-  max-width: 100rem
+  max-width: 80rem
   width: 100%
 
 img
   display: block
+  width: 100%
+  margin: main-margin
+
+p
+  width: article-width
+  margin: main-margin auto
 
 for i in (1..6)
   h{i}
     text-align: center
+    margin: main-margin
+    color: title-colour
+
+h6
+  font-size: 1.3rem
+h5
+  font-size: 1.5rem
+h4
+  font-size: 2rem
+h3
+  font-size: 2.5rem
+h2
+  font-size: 4rem
+h1
+  font-size: 6rem
 
 a
   text-decoration: none
   font-weight: bold
   &:link
   &:active
+  &:visited
     color: link-colour
   &:hover
     color: hover-text-colour
-  &:visited
-    color: visited-colour
 
 .project-link
-  margin: 0.5rem
+  margin: main-margin
   display: flex
   justify-content: center
+
+.socials
+  display: flex
+  justify-content: center
+  img
+    width: 4rem
+
+nav
+  display: flex
+  justify-content: center
+  gap: main-margin
+  font-size: 1.5rem
+
+blockquote
+  font-style: italic
+  background-color: alt-bg
+  color: alt-colour
+  width: article-width
+  padding: main-margin
+  margin: main-margin auto
+  border-left: 0.5rem solid alt-border-colour

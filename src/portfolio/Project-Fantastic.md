@@ -3,6 +3,7 @@ title: "Project Fantastic"
 link: "https://github.com/InfoSecInnovations/project-fantastic"
 start_date: 2020
 end_date: 2024
+image: img/fantastic.png
 ---
 
 I was originally brought into InfoSec Innovations to work on Project Fantastic. It was quite an ambitious plan to create a visualiser for computer networks where you could get an overview of which systems are present and perform a variety of actions on them.

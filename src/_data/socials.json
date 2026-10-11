@@ -1,0 +1,17 @@
+[
+  {
+    "link": "https://www.linkedin.com/in/sbblomfield",
+    "icon": "img/linkedin.png",
+    "alt": "LinkedIn"
+  },
+  {
+    "link": "https://github.com/sebovzeoueb",
+    "icon": "img/github.svg",
+    "alt": "GitHub"
+  },
+  {
+    "link": "https://bsky.app/profile/sebovzeoueb.bsky.social",
+    "icon": "img/bluesky.svg",
+    "alt": "Bluesky"
+  }
+]
