@@ -1,15 +1,13 @@
-# personal-site
+# Sebastian Boutin Blomfield portfolio site
 
-To install dependencies:
+Repository showing how I went about creating my portfolio website.
 
-```bash
-bun install
-```
+## Install
 
-To run:
+`bun install`
 
-```bash
-bun run index.ts
-```
+## Launch
 
-This project was created using `bun init` in bun v1.4.2. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+Hono prototype: `bun run hono_proto`
+
+11ty prototype: `bun run 11ty_proto`
