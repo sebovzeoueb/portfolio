@@ -1,5 +1,6 @@
 ---
 title: "Sebastian Boutin Blomfield"
+layout: home.njk
 ---
 
 # {{ title }}

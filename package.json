@@ -15,6 +15,6 @@
   },
   "scripts": {
     "hono_proto": "bun run --hot hono/index.tsx",
-    "11ty_proto": "bun run eleventy --input=./11ty/src --output=./11ty/_site --serve"
+    "11ty_proto": "bun run eleventy --config=./11ty/eleventy.config.js --input=./11ty/src --output=./11ty/_site --serve"
   }
 }

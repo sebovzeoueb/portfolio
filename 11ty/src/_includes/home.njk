@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{{ title }}</title>
+</head>
+<body>
+	{{ content | safe }}
+
+	<h2>Portfolio</h2>
+	{% for item in collections.portfolio %}
+	<article>
+		<h3>
+			{% if item.data.link %}<a href="{{ item.data.link }}">{{ item.data.title }}</a>{% else %}{{ item.data.title }}{% endif %}
+		</h3>
+		{% if item.data.image %}<img src="{{ item.data.image }}" alt="{{ item.data.title }}">{% endif %}
+		{{ item.content | safe }}
+	</article>
+	{% endfor %}
+</body>
+</html>
