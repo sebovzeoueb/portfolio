@@ -17,4 +17,4 @@ I'm a British and French dual national living in France. As well as computers I 
 
 ### Hire Me!
 
-I'm looking for work, if you like the look of what I do, please get in touch at seb@boutinblomfield.dev
+I'm looking for work, if you like the look of what I do, please get in touch at seb@boutin-blomfield.dev
