@@ -14,14 +14,22 @@
 
 ## Tech stack
 
-- Lit web components, web components are native JavaScript and Lit is a very light layer on top of that.
-- Bun to compile the frontend and run a dev server to view the project locally. (no prod server needed as it runs on a static web host).
-- Possibly 11ty or Hono to do static site generation (may not need Lit in this scenario).
+- 11ty
 - Stylus for CSS
+- Produce static files and upload to web host
 
 ## Contents
 
 - CV Items
-- Brief presentation of self
+  - Create groups instead of just listing every project. For example 1 item for ISI explaining my role and several of our projects.
+  - Just inline images into the templates instead of forcing 1 image per item
+- Brief presentation of self/skills
+  - Mention ability to pick up vibe coded/proof of concept projects and fix/improve them
 - Contact
+- Qualifications
+  - GSEC 401
+  - GIAC Advisory Board
+  - Music Degree
 - AI Disclosure/ramble?
+- Determine a bit better what my target market is
+- Include "official" PDF CV for download as I need one of those anyway for some applications
