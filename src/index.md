@@ -7,13 +7,15 @@ layout: home.njk
 
 A bit of a "Renaissance man", I make various things with computers including apps, games, pixel art and music.
 
-I'm great at taking ideas and distilling them into a concrete product. 
+With my extensive experience across a range of software projects, I can help you get things working or enhance an existing project:
+- Getting a vibe-coded prototype to production
+- Reviewing project architecture
+- Fixing that one specific issue that's bothering you
+- Turning an imprecise idea into a technically feasable plan
+- Detecting and improving performance bottlenecks
+- and much more...
 
-I put the user experience first, I aim to create intuitive experiences without sacrificing depth.
-
-I understand how different components fit together and communicate with each other.
-
-I'm a British and French dual national living in France. As well as computers I play Classical violin and Rock bass and grow vegetables in my garden.
+I'm a British and French dual national living in France. As well as computer stuff I play Classical violin and Rock bass and grow vegetables in my garden.
 
 ### Hire Me!
 

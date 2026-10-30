@@ -1,3 +1,5 @@
+import embedEverything  from "eleventy-plugin-embed-everything" 
+
 // year used to sort entries without an explicit order: start_date, falling back to 11ty's page date
 // (the frontmatter date if set, otherwise the file creation time)
 const sortYear = (item) => item.data.start_date ?? item.page.date.getUTCFullYear();
@@ -18,4 +20,5 @@ export default function (eleventyConfig) {
 	);
 	eleventyConfig.addPassthroughCopy("src/img");
 	eleventyConfig.addPassthroughCopy("src/static");
+	eleventyConfig.addPlugin(embedEverything);
 }

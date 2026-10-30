@@ -22,7 +22,7 @@
 
 - CV Items
   - Create groups instead of just listing every project. For example 1 item for ISI explaining my role and several of our projects.
-  - Just inline images into the templates instead of forcing 1 image per item
+  - Just inline images into the templates instead of forcing 1 image per item or use main image + inlined
 - Brief presentation of self/skills
   - Mention ability to pick up vibe coded/proof of concept projects and fix/improve them
 - Contact
