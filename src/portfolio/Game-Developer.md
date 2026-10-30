@@ -7,7 +7,7 @@ order: 1
 
 ![Lord of the Manor](/img/lotm.png)
 
-<https://www.lordofthemanor.net>
+<https://www.lordofthemanor.net>{.project-link}
 
 A quick prototype I put together for my portfolio back in 2019. It was well received and I put it back online recently as I had some requests from people who had previously played it.
 

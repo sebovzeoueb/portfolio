@@ -13,6 +13,7 @@
     "@11ty/eleventy": "^3.1.6",
     "eleventy-plugin-embed-everything": "^1.21.2",
     "hono": "^4.13.13",
+    "markdown-it-attrs": "^5.0.1",
     "stylus": "^0.64.0"
   },
   "scripts": {

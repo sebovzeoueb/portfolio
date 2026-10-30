@@ -10,6 +10,8 @@ alt-bg = #f5c19a
 alt-colour = #572d35
 alt-border-colour = #a17070
 article-width = 80%
+// width needed for an element inside an article to fill the whole section
+article-breakout = (100% / article-width) * 100%
 
 body
   background-color: bg-colour
@@ -31,8 +33,18 @@ img
   margin: main-margin
 
 p
+  margin: main-margin 0
+
+article
   width: article-width
-  margin: main-margin auto
+  margin: 0 auto
+  // images and videos break out of the article to use the whole section width
+  > p:has(> img)
+  > .eleventy-plugin-youtube-embed
+    width: article-breakout !important
+    margin-left: -((article-breakout - 100%) / 2)
+  > p:has(> img) img
+    margin: 0
 
 for i in (1..6)
   h{i}
@@ -64,9 +76,12 @@ a
     color: hover-text-colour
 
 .project-link
-  margin: main-margin
-  display: flex
-  justify-content: center
+  display: block
+  width: fit-content
+  max-width: 100%
+  margin: 0 auto
+  text-align: center
+  overflow-wrap: anywhere
 
 .socials
   display: flex
@@ -84,7 +99,6 @@ blockquote
   font-style: italic
   background-color: alt-bg
   color: alt-colour
-  width: article-width
   padding: main-margin
-  margin: main-margin auto
+  margin: main-margin 0
   border-left: 0.5rem solid alt-border-colour

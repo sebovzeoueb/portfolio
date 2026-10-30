@@ -1,4 +1,5 @@
-import embedEverything  from "eleventy-plugin-embed-everything" 
+import embedEverything  from "eleventy-plugin-embed-everything"
+import markdownItAttrs from "markdown-it-attrs"
 
 // year used to sort entries without an explicit order: start_date, falling back to 11ty's page date
 // (the frontmatter date if set, otherwise the file creation time)
@@ -21,4 +22,6 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("src/img");
 	eleventyConfig.addPassthroughCopy("src/static");
 	eleventyConfig.addPlugin(embedEverything);
+	// lets markdown add attributes to elements, e.g. <https://example.com>{.project-link}
+	eleventyConfig.amendLibrary("md", (md) => md.use(markdownItAttrs));
 }

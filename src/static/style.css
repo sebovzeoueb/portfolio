@@ -19,8 +19,19 @@ img {
   margin: 1rem;
 }
 p {
+  margin: 1rem 0;
+}
+article {
   width: 80%;
-  margin: 1rem auto;
+  margin: 0 auto;
+}
+article > p:has(> img),
+article > .eleventy-plugin-youtube-embed {
+  width: 125% !important;
+  margin-left: -12.5%;
+}
+article > p:has(> img) img {
+  margin: 0;
 }
 h1 {
   text-align: center;
@@ -83,9 +94,12 @@ a:hover {
   color: #e67455;
 }
 .project-link {
-  margin: 1rem;
-  display: flex;
-  justify-content: center;
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  overflow-wrap: anywhere;
 }
 .socials {
   display: flex;
@@ -104,8 +118,7 @@ blockquote {
   font-style: italic;
   background-color: #f5c19a;
   color: #572d35;
-  width: 80%;
   padding: 1rem;
-  margin: 1rem auto;
+  margin: 1rem 0;
   border-left: 0.5rem solid #a17070;
 }
