@@ -15,6 +15,8 @@ With my extensive experience across a range of software projects, I can help you
 - Detecting and improving performance bottlenecks
 - and much more...
 
+I am also open to regular full-time or part-time software or game development work.
+
 I'm a British and French dual national living in France. As well as computer stuff I play Classical violin and Rock bass and grow vegetables in my garden.
 
 ### Hire Me!
