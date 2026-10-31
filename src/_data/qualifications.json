@@ -1,0 +1,81 @@
+{
+  "languages": [
+    {
+      "name": "English",
+      "value": 100
+    },
+    {
+      "name": "French",
+      "value": 100
+    },
+    {
+      "name": "Spanish",
+      "value": 60
+    }
+  ],
+  "certifications": [
+    {
+      "name": "GIAC Security Essentials"
+    },
+    {
+      "name": "GIAC Advisory Board Member"
+    },
+    {
+      "name": "BA Music Performance with Digital Arts Minor"
+    }
+  ],
+  "technology_skills": [
+    {
+      "name": "Python"
+    },
+    {
+      "name": "TypeScript"
+    },
+    {
+      "name": "C#"
+    },
+    {
+      "name": "Bun"
+    },
+    {
+      "name": "Docker"
+    },
+    {
+      "name": "Version Control"
+    },
+    {
+      "name": "Fullstack Development"
+    },
+    {
+      "name": "AI"
+    }
+  ],
+  "game_skills": [
+    {
+      "name": "Game Design"
+    },
+    {
+      "name": "Godot"
+    },
+    {
+      "name": "Unity"
+    },
+    {
+      "name": "Pixel Art"
+    },
+    {
+      "name": "Procedural Generation"
+    }
+  ],
+  "music_skills": [
+    {
+      "name": "Audio Engineering"
+    },
+    {
+      "name": "Composition"
+    },
+    {
+      "name": "Performance"
+    }
+  ]
+}
