@@ -1,6 +1,6 @@
 ---
 title: Game Developer
-order: 1
+order: 2
 ---
 
 #### Lord of the Manor

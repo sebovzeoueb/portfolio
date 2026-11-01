@@ -41,6 +41,12 @@
       "name": "Docker"
     },
     {
+      "name": "Keycloak"
+    },
+    {
+      "name": "OpenSearch"
+    },
+    {
       "name": "Version Control"
     },
     {

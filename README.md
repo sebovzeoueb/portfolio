@@ -2,12 +2,16 @@
 
 Repository showing how I went about creating my portfolio website.
 
+It's a simple static site generator taking a few markdowns, some templates and some config files and outputting web-ready HTML and CSS.
+
 ## Install
 
 `bun install`
 
 ## Launch
 
-Hono prototype: `bun run hono_proto`
+`bun run dev` - runs 11ty and Stylus in watch mode so changes are updated automatically. 
 
-11ty prototype: `bun run 11ty_proto`
+## Deployment
+
+The static files are built to `/_site` which is then just uploaded to a web hosting service.

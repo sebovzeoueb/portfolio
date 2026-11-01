@@ -1,6 +1,6 @@
 ---
 title: Musician
-order: 2
+order: 3
 ---
 
 #### DoctoR DooM
